@@ -9,6 +9,7 @@ public class LongStringTransformer {
         }
     }
 
+
     public static Long stringToLong(String text) {
         if (null == text || text.isEmpty()) {
             return 0L;
